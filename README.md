@@ -1,10 +1,42 @@
 # MAV hardware- and software-setup
+
+#### [Paper](https://doi.org/10.3929/ethz-b-000520507) | [Video](https://www.youtube.com/watch?v=ytru7-iqqB4) | [Wiki](https://github.com/VIS4ROB-lab/mav_hardware/wiki)
+
 This repository contains a description of the harware- and software-setup used at the Vision for Robotics Lab for autonomous MAV flights, see Figure 1.
 
 Please head over to the [wiki](https://github.com/VIS4ROB-lab/mav_hardware/wiki) of this repository for the full description.
 
 ![MAV](https://user-images.githubusercontent.com/36622275/144840501-4bebdb8a-6e13-42ce-907e-f93119899951.jpg)
 **Figure 1** MAV during fully autonomous flight.
+
+### Content
+[**MAV Hardware**](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Hardware)  
+    [**Frame**](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Hardware#frame)  
+    [**On-Board Computing**](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Hardware#on-board-computing)  
+        [Communication with the Flight Controller](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Hardware#communication-with-the-flight-controller)  
+        [Intel NUC](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Hardware#intel-nuc)  
+        [Jetson](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Hardware#jetson)  
+        [Example Setup](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Hardware#example-setup)  
+    [**Remote Control**](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Hardware#remote-control)  
+    [**Power**](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Hardware#power)  
+        [Batteries](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Hardware#batteries)  
+        [Power Hot-Swap](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Hardware#power-hot-swap)  
+        [12V Rail](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Hardware#12v-rail)  
+        [Wiring](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Hardware#wiring)  
+    [**Sensors**](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Hardware#sensors)  
+    [**Resources**](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Hardware#resources)  
+        [3D Modelled Parts](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Hardware#3d-modelled-parts)  
+        [PCBs](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Hardware#pcbs)  
+[**MAV Software**](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Software)  
+    [**Overview**](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Software#overview)  
+    [**Mavros**](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Software#mavros)  
+    [**QGroundControl**](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Software#qgroundcontrol)  
+    [**Planning with ROS**](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Software#planning-with-ros)  
+        [Using RTK GPS](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Software#using-rtk-gps)  
+        [Using Visual-Inertial Odometry](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Software#using-visual-inertial-odometry)  
+        [Sending commands to the MAV](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Software#sending-commands-to-the-mav)  
+    [**Useful Software**](https://github.com/VIS4ROB-lab/mav_hardware/wiki/MAV-Software#useful-software)  
+
 
 ### Publication
 
